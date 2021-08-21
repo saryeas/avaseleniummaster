@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-08T19:22:53 PDT" name="Default suite" finished-at="2021-08-08T19:24:42 PDT" duration-ms="109152">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-08T19:22:53 PDT" name="Default test" finished-at="2021-08-08T19:24:42 PDT" duration-ms="109152">
+      <class name="com.bangladesh.TestRunner.TestRunner_BD">
+        <test-method is-config="true" signature="LaunchApplicationURL()[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:22:53 PDT" name="LaunchApplicationURL" finished-at="2021-08-08T19:23:19 PDT" duration-ms="25948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApplicationURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:23:19 PDT" name="setUpClass" finished-at="2021-08-08T19:23:20 PDT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:23:21 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-08T19:23:54 PDT" duration-ms="33073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:23:54 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-08-08T19:24:35 PDT" duration-ms="41560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:24:35 PDT" name="tearDownClass" finished-at="2021-08-08T19:24:35 PDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="CloseApplicationURL()[pri:0, instance:com.bangladesh.TestRunner.TestRunner_BD@55536d9e]" started-at="2021-08-08T19:24:35 PDT" name="CloseApplicationURL" finished-at="2021-08-08T19:24:42 PDT" duration-ms="6407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplicationURL -->
+      </class> <!-- com.bangladesh.TestRunner.TestRunner_BD -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
