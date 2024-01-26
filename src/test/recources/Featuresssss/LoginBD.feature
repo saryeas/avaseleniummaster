@@ -3,7 +3,7 @@ Feature: Login
 
 
 
-@BD
+@BD1S
 Scenario: Verify user can login
 Given Open Application "<URL>"
 Then Click on Signinbutton

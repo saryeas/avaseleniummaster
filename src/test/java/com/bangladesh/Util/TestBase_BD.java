@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestBase_BD {
 	
@@ -37,7 +38,8 @@ public class TestBase_BD {
 		
 		String Browsername = prop.getProperty("browser1");
 		if(Browsername.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\driver\\chromedriver.exe" );
+			System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "\\Driver1\\chromedriver.exe" );
+			ChromeOptions option = new ChromeOptions ();
 			
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
